@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+		<!-- font awesome  -->
+   	<script src="https://kit.fontawesome.com/6fadb8634f.js"></script>
+   	
+
+   	<style>
+			
+			*{
+				font-size: 1rem;
+			}
+			
+			/*	header section ka styling		*/
+			.header {
+				min-height: 100vh;
+				background-attachment: fixed;
+				background-image: linear-gradient(to right bottom,rgb(0,0,0,.6),rgb(0,0,0,.6)), url(img-1.jpg);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+			
+			
+			/*	setting the default background color of jumbotron to transparent		*/
+			.jumbotron{
+				background: none;
+				
+			}
+			
+			/*	responsive display-3 text size		*/
+			.display-3{
+				font-size: 5vw;
+			}
+			
+			/*	Training section		*/
+			.training-section{
+				background-color: #99AAAB;
+			}
+			
+			.training-courses-section {
+				margin-top: 30vh;
+			}
+			
+			/*	Cards styling		*/
+			.card {
+				background: none;
+				border: none;
+			}
+			
+			
+			.card-text {
+				font-weight: bold;
+			}
+			
+			
+			.card:hover .card-body > p{
+				color: white !important;
+			}
+			
+			.card:hover{
+				background-color: #d9534f;
+				color: white;
+			}
+			
+			/*	finding courses		*/
+			.centered-form {
+				background-color: white;
+				width: 90%;
+				border: 2px solid black;
+				
+			}
+			
+			.centered-form input[type="text"] {
+				background-color: #EAF0F1;
+			}
+			
+			.trial-center{
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+			}
+			
+			
+			/*	footer section		*/
+			footer .container-fluid {
+				background-color: #badc57;
+			}
+			footer .container-fluid a i:hover {
+				color: red;
+			}
+			
+			
+		</style>
+   
+    <title>Hello, world!</title>
+  </head>
+  <body>
+		<!-- header section starts   -->
+    <header class="py-5 header mb-5">
+
+				
+   			<!-- 		Navbar starts here   		-->   			
+   			
+   			<nav class="navbar navbar-expand-md navbar-dark w-100">
+   				<div class="container">
+   			
+   			
+   				<!--   Logo			-->
+					<a href="#" class="navbar-brand text-white display-4 font-weight-bold">
+						<i class="fas fa-book text-white display-5 mr-2"></i>TutorPoint
+					</a>
+					
+					
+					<button class="navbar-toggler text-white" data-toggle= "collapse" data-target="#items">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					
+
+					<div class="collapse navbar-collapse text-center" id="items">
+						<ul class="navbar-nav mx-auto ">
+								<li class="nav-item ml-2">
+									<a href="#" class="nav-link text-white">Home</a>
+								</li>
+								<li class="nav-item ml-2">
+									<a href="codingexample.html" class="nav-link text-white">Coding Examples</a>
+								</li>
+								<li class="nav-item ml-2">
+									<a href="#" class="nav-link text-white">Courses</a>
+								</li>
+								<li class="nav-item ml-2">
+									<a href="#" class="nav-link text-white">Ebooks</a>
+								</li>
+								<button class="btn btn-danger ml-5 px-5">
+									Login
+								</button>
+						</ul>
+					</div>
+				
+					
+					
+					
+					</div>
+   			</nav>
+   			
+				<!--   Navbar ends				-->
+   			
+   			
+				<!--  jumbotron starts 			-->
+   			<div class="jumbotron">
+   				<p class="text-center text-white text-capitalize display-3 mb-5">Get the best free online courses</p>
+   				<p class="text-center text-white text-capitalize display-3">
+   					new user sign up now!!
+   				</p>
+   			</div>
+   			
+				<!--  jumbotron ends 			-->
+    		
+				<!--   sign up form begins inline-form 		-->
+   			<form action="" class="form-inline d-flex justify-content-center">
+   				<input type="text" placeholder="Name" class="form-control mr-4 w-25 mb-5">
+   				<input type="email" placeholder="Email" class="form-control mr-4 mb-5 w-25">
+   				<button class="btn btn-danger form-control mr-sm-4 px-5 font-size-bold mb-5">Sign up now</button>
+   			</form>
+    		
+    		
+    </header>
+
+		<!-- header section ends   -->
+    
+    
+		<!--  Training section  -->
+   	<section class="training-courses-section mb-5">
+   		<div class="container my-5 training-section">
+   			<h2 class="text-center py-5 display-5">Tutorials Library</h2>
+   			<h4 class="text-center mb-5 blockquote">learn online courses from our website with easy and lucid explanation!!</h4>
+   			<div class="row py-5">
+   			
+					<!--   Computer Science				-->
+   				<div class="col-lg-4 col-md-4 col-12">
+   					<div class="card">
+   						<img src="img-2.jpeg" alt="" class="card-img-top img-fluid">
+   						
+   						<div class="card-body">
+   							<h4 class="card-title">Compter Science</h4>
+   							<p class="card-text" style="color: #d9534f;">120 Courses</p>
+   						</div>
+   						
+   					</div>
+   				</div>
+   				
+   				<!--   Web Development				-->
+   				<div class="col-lg-4 col-md-4 col-12">
+   					<div class="card">
+   						<img src="img-3.jpg" alt="" class="card-img-top img-fluid">
+   						
+   						<div class="card-body">
+   							<h4 class="card-title">Web Development</h4>
+   							<p class="card-text" style="color: #d9534f;">70 Courses</p>
+   						</div>
+   						
+   					</div>
+   				</div>
+   				
+   				
+   				<!--   Programming				-->
+   				<div class="col-lg-4 col-md-4 col-12">
+   					<div class="card">
+   						<img src="img-2.jpeg" alt="" class="card-img-top img-fluid">
+   						
+   						<div class="card-body">
+   							<h4 class="card-title">Programming</h4>
+   							<p class="card-text" style="color: #d9534f;">55 Courses</p>
+   						</div>
+   						
+   					</div>
+   				</div>
+   				
+   				<!--   Java Technologies				-->
+   				<div class="col-lg-4 col-md-4 col-12">
+   					<div class="card">
+   						<img src="img-5.jpg" alt="" class="card-img-top img-fluid">
+   						
+   						<div class="card-body">
+   							<h4 class="card-title">Java Technologies</h4>
+   							<p class="card-text" style="color: #d9534f;">40 Courses</p>
+   						</div>
+   						
+   					</div>
+   				</div>
+   				
+   				
+   				<!--   Mobile Development				-->
+   				<div class="col-lg-4 col-md-4 col-12">
+						<div class="card">
+							<img src="img-6.jpg" alt="" class="card-img-top img-fluid">
+							<div class="card-body">
+								<h4 class="card-title">Mobile Development</h4>
+								<p class="card-text" style="color: #d9534f;">220 Courses</p>
+							</div>
+						</div>
+					</div>
+   				
+					<!--   	Database Technology				-->
+  				<div class="col-lg-4 col-md-4 col-12">
+  					<div class="card">
+  						<img src="img-7.jpg" alt="" class="card-img-top">
+  						<div class="card-body">
+  							<h4 class="card-title">Database Technology</h4>
+  							<p class="card-text" style="color: #d9534f;">25 Courses</p>
+  						</div>
+  					</div>
+  				</div>
+   				
+   			</div>
+   		</div>
+   	</section>
+   	
+		<!--  end of training courses section  	-->
+		
+		<!--	searching course section	-->
+		<section>
+			<div class="container bg-danger py-5 mb-5 trial-center">
+				<h2 class="display-5 text-center text-white mb-5">Search your course</h2>
+				<form class="form-inline mx-auto centered-form p-5 ">
+					<div class="mx-auto text-center">
+						<input type="text" placeholder="Course" class="form-control mr-5 mb-5">
+						<input type="text" placeholder="category" class="form-control mr-5 mb-5">
+						<input type="submit" value = "Search course" class="btn btn-danger px-5 mb-5">
+					</div>
+				</form>
+			</div>
+		</section>
+		
+		<!-- end of	searching course section	-->
+   
+		<!--    footer begins-->
+    <footer>
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-lg-6 col-md-6 col-12 py-5">
+    				<h4 href="#" class="text-white font-weight-bold mr-5">
+							<i class="fas fa-book text-white display-5 mr-2"></i>TutorPoint
+						</h4>
+						<div class="mt-5">
+							<a href="#" class="text-primary"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="text-primary"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="text-primary"><i class="fab fa-google-plus-g"></i></a>
+							<p>Copyright ©2019 All rights reserved | Made by <br>TutorPoint</p>
+						</div>
+    			</div>
+    			
+    			
+    			<div class="col-lg-2 col-md-2 col-12 pt-3">
+    				<h5 class="text-center text-uppercase">About us</h5>
+    				<ul class="text-left">
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Company</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Our Team</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Careers</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Privacy Policy</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Cookies Policy</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Terms of use</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Investors</a></li>
+    				</ul>
+    				<small class="small text-secondary">www.tutorspoint.com</small>
+    			</div>
+    			
+    			<div class="col-lg-2 col-md-2 col-12 pt-3">
+    				<h5 class="text-center text-uppercase">Extra Links</h5>
+    				<ul>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Articles</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Dev Tools</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Free Graphics</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>File Conversion</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Shared tutorials</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>NetMeeting</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Whiteboard</a></li>
+    				</ul>
+    			</div>
+    			
+    			<div class="col-lg-2 col-md-2 col-12 pt-3">
+    				<h5 class="text-center text-uppercase">Contact us</h5>
+    				<ul>
+    					<li class="mb-4">
+    						<small class="text-secondary"><strong>Address:</strong>10th Floor, VIP Road,Mumbai, Maharashtra,404041</small>
+    					</li>
+    					
+    					<li>
+    						<small class="text-secondary"><strong>Website:</strong><br>www.Tutorpoint.com</small>
+    					</li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>	
+    	
+    </footer>
+    
+		<!-- 		footer ends   -->
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
