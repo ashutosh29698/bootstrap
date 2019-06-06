@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+		
+		<!-- font-awesome   -->
+    <script src="https://kit.fontawesome.com/6fadb8634f.js"></script>
+		
+		<style>
+			
+			.header {
+				min-height: 80vh;
+				background-image:linear-gradient(to right,rgb(0,0,0,.5),rgb(0,0,0,.5)),url(img-5.jpg);
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				
+			}
+			
+		
+			.sub-header-1 {
+				margin-top: -10rem;
+				font-size: 3vw;
+				
+			}
+			
+			.sub-header-2 input[type="text"] {
+				width: 25%;
+				height: 10vh;
+			}
+			.sub-header-2 {
+				width: 90%;
+			}
+		
+			
+			input[type="text"] {
+				background-color: #EAF0F1;
+			}
+			
+			input[type="email"] {
+				background-color: #EAF0F1;
+			}
+			
+			.underline {
+				width: 100%;
+				height: 10px;
+				border-top: 2px solid #dc3545;
+			}
+			
+			
+			.special-list li{
+				color: red;
+			}	
+			
+			.special-list li span {
+				color: #A4B0BD;
+			}
+			
+			.myiconnav li a{
+				color: #8395A7;
+			}
+			
+			.myiconnav li a:hover {
+				color: #dc3545;
+			}
+		
+			
+			/*	footer section		*/
+			footer .container-fluid {
+				background-color: #badc57;
+			}
+			footer .container-fluid a i:hover {
+				color: red;
+			}
+			
+			
+			.header a:hover{
+				text-decoration: none;
+			}
+			
+			
+		</style>
+		
+		
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+		<!--  using same header as courses.html  -->
+   	<!-- Header starts  -->
+   	<header class='header py-5'>
+   	
+			<!--  Navbar starts 		-->
+			<nav class="container navbar navbar-expand-md navbar-dark">
+				
+				<a href="index.html" class="navbar-brand">
+					<h1 class="text-white"><i class="fas fa-book mr-2"></i>TutorPoint</h1>
+				</a>
+
+				<!--  Responsive nav btn		-->
+				<button class="navbar-toggler" data-toggle="collapse" data-target='#navitems'>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse ml-auto justify-content-center" id="navitems">
+					<ul class="navbar-nav">
+						<li class="nav-item mx-2">
+							<a href="index.html" class="nav-link text-white">Home</a>
+						</li>
+						
+						<li class="nav-item mx-2">
+							<a href="codingexample.html" class="nav-link text-white">Coding Examples</a>
+						</li>
+						
+						<li class="nav-item mx-2">
+							<a href="courses.html" class="nav-link text-white">Courses</a>
+						</li>
+						<li class="nav-item mr-5 ml-2">
+							<a href="ebooks.html" class="nav-link text-white">Ebooks</a>
+						</li>
+						<li class="nav-item">
+							<a href="ebooks.html" class="nav-link btn btn-danger px-5">Login</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+   		
+   		<div class="mt-5">
+				<span><a href="index.html" class="text-white pl-5">Home/</a><code>Ebooks</code></span>
+			</div>
+   		
+   	</header>
+   	
+   	<div class="sub-header">
+   		<div class="sub-header-1 bg-danger w-50 py-2 text-center mx-auto text-white display-4">
+   			Search Your Book
+   		</div>
+   		<div class="sub-header-2 py-5 bg-danger mx-auto">
+   			<form action="" class="form-inline display-flex justify-content-center">
+   				<input type="text" class="code name mr-2 form-control" placeholder="book name">
+   				<input type="text" class="code name mr-2 form-control" placeholder="publication">
+   				<button class="btn btn-dark py-3 px-5">Search</button>
+   			</form>
+   		</div>
+   		
+   	</div>
+   	
+   
+		<!--  Header ends 	-->
+
+    
+		<!--  Registration section starts  -->
+    <section>
+    	<div class="container my-5">
+    		<div class="row">
+    			
+    			<div class="col-lg-8 col-md-8 col-12">
+    				<div class="py-5 bg-danger px-5">
+    					<h1 class="text-white font-weight-bold">New Registration</h1>
+    					
+							<!--    	Registration form				-->
+   						<form action="" class="form mt-5 bg-light p-5">
+   							<input type="text" class="form-control my-3" placeholder="your name">
+   							<input type="email" class="form-control my-3" placeholder="your email">
+   							<input type="text" class="form-control my-3" placeholder="phone number">
+   							<input type="text" class="form-control my-3" placeholder="address">
+   							<button class="btn btn-danger px-5 my-3">Forward</button>
+   						</form>
+    					
+    				</div>
+    			</div>
+    			
+    			<div class="col-lg-4 col-md-4 col-12">
+    				<div class="pt-5">
+    					<h1>Contact Info</h1>
+    					<h4 class="my-3">If any doubt contact below</h4>
+    					
+							<!--    	This is done especially for underline under phone number				-->
+    					<div class="" style="display: inline-block">
+								<h5 class="text-danger mt-5">Phone Line</h5>
+
+								<h5>+91 9323 3245 23</h5>
+								<div class="underline"></div>
+							</div>
+   					
+   						<ul class="mt-5 special-list">
+								<!--   		The list bullet get their color from li color so what we do is we keep the main text in span tag and assign red color to li item and grey color to li span tag :)					-->
+   							<li class=" my-4">
+   								<span>
+										17th Floor, SP Road Malabar Hills Mumbai, Maharashtra,404041
+										Mumbai, Maharashtra,404041
+									</span>
+								</li>
+   							<li class="my-4">
+   								<span>
+   									abcmail@gmail.com
+									</span>
+   							</li>
+   						</ul>
+    					
+    					<div class="mt-5">
+    					<ul class="nav myiconnav">
+    						<li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-pinterest"></i></a></li>
+    						<li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a></li>
+    						<li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-twitter"></i></a></li>
+    						<li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-instagram"></i></a></li>
+    						
+    						<li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-behance"></i></a></li>
+    						<li class="nav-item"><a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    
+    
+		<!-- footer copied from index.html   -->
+   <!--    footer begins-->
+    <footer>
+    	<div class="container-fluid mt-5">
+    		<div class="row">
+    			<div class="col-lg-6 col-md-6 col-12 py-5">
+    				<h4 href="#" class="text-white font-weight-bold mr-5">
+							<i class="fas fa-book text-white display-5 mr-2"></i>TutorPoint
+						</h4>
+						<div class="mt-5">
+							<a href="#" class="text-primary"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="text-primary"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="text-primary"><i class="fab fa-google-plus-g"></i></a>
+							<p>Copyright ©2019 All rights reserved | Made by <br>TutorPoint</p>
+						</div>
+    			</div>
+    			
+    			
+    			<div class="col-lg-2 col-md-2 col-12 pt-3">
+    				<h5 class="text-center text-uppercase">About us</h5>
+    				<ul class="text-left">
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Company</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Our Team</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Careers</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Privacy Policy</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Cookies Policy</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Terms of use</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Investors</a></li>
+    				</ul>
+    				<small class="small text-secondary">www.tutorspoint.com</small>
+    			</div>
+    			
+    			<div class="col-lg-2 col-md-2 col-12 pt-3">
+    				<h5 class="text-center text-uppercase">Extra Links</h5>
+    				<ul>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Articles</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Dev Tools</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Free Graphics</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>File Conversion</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Shared tutorials</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>NetMeeting</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Whiteboard</a></li>
+    				</ul>
+    			</div>
+    			
+    			<div class="col-lg-2 col-md-2 col-12 pt-3">
+    				<h5 class="text-center text-uppercase">Contact us</h5>
+    				<ul>
+    					<li class="mb-4">
+    						<small class="text-secondary"><strong>Address:</strong>10th Floor, VIP Road,Mumbai, Maharashtra,404041</small>
+    					</li>
+    					
+    					<li>
+    						<small class="text-secondary"><strong>Website:</strong><br>www.Tutorpoint.com</small>
+    					</li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>	
+    	
+    </footer>
+    
+	<!-- 		footer ends   -->
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

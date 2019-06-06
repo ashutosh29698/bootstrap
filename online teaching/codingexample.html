@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- Coding Examples page	 -->
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,10 +8,312 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+		<!-- font-awesome link   -->
+   	<script src="https://kit.fontawesome.com/6fadb8634f.js"></script>
 
-    <title>Hello, world!</title>
+   	<style>
+			
+			
+			.header {
+				min-height: 80vh;
+				background-image:linear-gradient(to right,rgb(0,0,0,.5),rgb(0,0,0,.5)),url(img-21.jpg);
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				
+			}
+		
+			.sub-header-1 {
+				margin-top: -10rem;
+				font-size: 3vw;
+				
+			}
+			
+			.sub-header-2 input[type="text"] {
+				width: 25%;
+				height: 10vh;
+			}
+			.sub-header-2 {
+				width: 90%;
+			}
+			
+			
+			/*	footer section		*/
+			footer .container-fluid {
+				background-color: #badc57;
+			}
+			footer .container-fluid a i:hover {
+				color: red;
+			}
+			
+			
+			.header a:hover{
+				text-decoration: none;
+			}
+			
+		</style>
+    
+    <title>TutorPoint-coding examples</title>
   </head>
   <body>
+   
+		<!-- Header starts  -->
+   	<header class='header py-5'>
+   	
+			<!--  Navbar starts 		-->
+			<nav class="container navbar navbar-expand-md navbar-dark">
+				
+				<a href="index.html" class="navbar-brand">
+					<h1 class="text-white"><i class="fas fa-book mr-2"></i>TutorPoint</h1>
+				</a>
+
+				<!--  Responsive nav btn		-->
+				<button class="navbar-toggler" data-toggle="collapse" data-target='#navitems'>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse ml-auto justify-content-center" id="navitems">
+					<ul class="navbar-nav">
+						<li class="nav-item mx-2">
+							<a href="index.html" class="nav-link text-white">Home</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a href="courses.html" class="nav-link text-white">Courses</a>
+						</li>
+						<li class="nav-item mr-5 ml-2">
+							<a href="ebooks.html" class="nav-link text-white">Ebooks</a>
+						</li>
+						<li class="nav-item">
+							<a href="ebooks.html" class="nav-link btn btn-danger px-5">Login</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			
+			<div class="mt-5">
+				<span class=""><a href="index.html" class="text-white pl-5">Home/</a><code>CodingExample</code></span>
+			</div>
+   	
+   	</header>
+   	
+   	<div class="sub-header">
+   		<div class="sub-header-1 bg-danger w-50 py-2 text-center mx-auto text-white display-4">
+   			Search your course
+   		</div>
+   		<div class="sub-header-2 py-5 bg-danger mx-auto">
+   			<form action="" class="form-inline display-flex justify-content-center">
+   				<input type="text" class="code name mr-2 form-control" placeholder="code name">
+   				<input type="text" class="code name mr-2 form-control" placeholder="category program(eg. java,c++)">
+   				<button class="btn btn-dark">Search course</button>
+   			</form>
+   		</div>
+   		<hr class="mx-auto w-75 mt-5 mb-5">
+   	</div>
+   	
+   
+		<!--  Header ends 	-->
+   
+		<!--	Program list 	-->
+   	<section>
+   		<div class="container mb-5">
+   			<h1 class="display-5 mb-5">Program List in C &rarr;</h1>
+   			<div class="row">
+   			
+					<!--   	Start with basic program			-->
+   				<div class="col-lg-4 col-md-6 col-12 p-2">
+   				<div class="border p-2">
+   					<strong class="lead text-secondary font-weight-bold pt-2">start with basic programs</strong>
+   					<ul class='text-secondary small p-3'>
+   						<li>Hello World!</li>
+   						<li>Taking input from user</li>
+   						<li>Find ASCII value of character</li>
+							<li>Using <code>gets()</code> function</li>
+   						<li>if-else</li>
+   						<li>Switch Case</li>
+   						<li>Checking for vowel</li>
+   						<li>Reversing case of character</li>
+   						<li>Swapping two numbers</li>
+   						<li>Largest and Smallest using global declaration</li>
+   					</ul>
+   				</div>
+					</div>
+   				
+				<!--   	Loops			-->
+  			<div class="col-lg-4 col-md-6 col-12 p-2">
+					<div class="border p-2">
+						<strong class="lead text-secondary font-weight-bold">Loops</strong>
+						<ul class='p-3'>
+							<li class="text-secondary small">Basic <code>for</code> loop</li>
+							<li class="text-secondary small">Basic <code>while</code> loop</li>
+							<li class="text-secondary small">Basic do-while loop</li>
+							<li class="text-secondary small">Nested <code>for</code> loop</li>
+							<li class="text-secondary small">Program to find factorial of a number</li>
+							<li class="text-secondary small">Fibonacci series program</li>
+							<li class="text-secondary small">Palindrome program</li>
+							<li class="text-secondary small">Program to find sum of digits</li>
+							<li class="text-secondary small">program to reverse a number</li>
+						</ul>
+					</div>
+  			</div>
+  			
+				<!--  Number crunching			-->
+  			<div class="col-lg-4 col-md-6 col-12 p-2">
+  				<div class="border p-2">
+  					<strong class="lead text-secondary font-weight-bold">Number crunching</strong>
+  					<ul class='p-3'>
+  						<li class="text-secondary">Program to find Average of n Numbers</li>
+  						<li class="text-secondary">Armstrong Number</li>
+  						<li class="text-secondary">Checking input number for Odd or Even</li>
+  						<li class="text-secondary">Print Factors of a Number</li>
+  						<li class="text-secondary">Find sum of n Numbers</li>
+  						<li class="text-secondary">Print first n Prime Numbers</li>
+  						<li class="text-secondary">Find Largest among n Numbers</li>
+							<li class="text-secondary">Exponential without <code>pow()</code></li>
+							<li class="text-secondary">Find whether number is <code>int</code> or <code>float</code></li>
+  						<li class="text-secondary">Print Multiplication Table of input Number</li>
+  					</ul>
+  				</div>
+  			</div>
+  			
+				<!--  	Concept of Arrays		-->
+				<div class="col-lg-4 col-md-6 col-12 p-2">
+					<div class="border p-2">
+						<strong class="lead font-weight-bold text-secondary">Concept of Arrays</strong>
+						<ul class="p-3 text-secondary">
+							<li>Reverse an Array</li>
+							<li>Insert Element to Array</li>
+							<li>Delete Element from Array</li>
+							<li>Largest and Smallest Element in Array</li>
+							<li>Sum of N Numbers using Arrays</li>
+							<li>Sort Array Elements</li>
+							<li>Remove Duplicate Elements</li>
+							<li>Sparse Matrix</li>
+							<li>Square Matrix</li>
+							<li>Determinant of 2x2 matrix</li>
+							<li>Normal and Trace of Square Matrix</li>
+							<li>Addition and Subtraction of Matrices</li>
+							<li>Matrix Mulitplication</li>
+						</ul>
+					</div>
+				</div>
+				
+				<!--		Pointers		-->
+				<div class="col-lg-4 col-md-6 col-12 p-2">
+					<div class="border p-3">
+						<strong class="lead font-weight-bold text-secondary">Pointers</strong>
+						<ul class="p-3 text-secondary">
+							<li>Simple Program</li>
+							<li>Memory Management</li>
+							<li>Array of Pointers</li>
+							<li>Pointer Increment and Decrement</li>
+							<li>Pointer Comparison</li>
+							<li>Pointer to a Pointer</li>
+							<li>Concatenate Strings using Pointer</li>
+							<li>Reverse a String using Pointer</li>
+							<li>Swapping Two Numbers</li>
+							<li>Pointer to a Function</li>
+							<li>Null Pointer</li>
+						</ul>
+					</div>
+				</div>
+				
+				
+				<!--	Concept of Recursion			-->
+				<div class="col-lg-4 col-md-6 col-12 p-2">
+					<div class="border p-3">
+						<strong class="lead font-weight-bold text-secondary">Concept of Recursion</strong>
+						<ul class="p-3 text-secondary">
+							<li>Adding Two Numbers</li>
+							<li>Factorial</li>
+							<li>Fibonacci Series</li>
+							<li>Sum of First N Numbers</li>
+							<li>Sum of Digits</li>
+							<li>Palindrome</li>
+							<li>Power of N</li>
+							<li>Largest Array Element</li>
+							<li>Prime or Composite</li>
+							<li>LCM of Two Numbers</li>
+							<li>GCD of Two Numbers</li>
+							<li>Reverse a String</li>
+						</ul>
+					</div>
+				</div>
+  			
+  			
+  			
+  			
+   			</div>
+			</div>
+   		
+   	</section>
+   
+   
+		<!--   	footer copied exactly as in home page-->
+   	<!--    footer begins-->
+    <footer>
+    	<div class="container-fluid">
+    		<div class="row">
+    			<div class="col-lg-6 col-md-6 col-12 py-5">
+    				<h4 href="#" class="text-white font-weight-bold mr-5">
+							<i class="fas fa-book text-white display-5 mr-2"></i>TutorPoint
+						</h4>
+						<div class="mt-5">
+							<a href="#" class="text-primary"><i class="fab fa-facebook-f"></i></a>
+							<a href="#" class="text-primary"><i class="fab fa-twitter"></i></a>
+							<a href="#" class="text-primary"><i class="fab fa-google-plus-g"></i></a>
+							<p>Copyright ©2019 All rights reserved | Made by <br>TutorPoint</p>
+						</div>
+    			</div>
+    			
+    			
+    			<div class="col-lg-2 col-md-2 col-12 pt-3">
+    				<h5 class="text-center text-uppercase">About us</h5>
+    				<ul class="text-left">
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Company</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Our Team</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Careers</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Privacy Policy</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Cookies Policy</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Terms of use</a></li>
+							<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Investors</a></li>
+    				</ul>
+    				<small class="small text-secondary">www.tutorspoint.com</small>
+    			</div>
+    			
+    			<div class="col-lg-2 col-md-2 col-12 pt-3">
+    				<h5 class="text-center text-uppercase">Extra Links</h5>
+    				<ul>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Articles</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Dev Tools</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Free Graphics</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>File Conversion</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Shared tutorials</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>NetMeeting</a></li>
+    					<li><a href="#"><i class="fas fa-check text-dark mr-1"></i>Whiteboard</a></li>
+    				</ul>
+    			</div>
+    			
+    			<div class="col-lg-2 col-md-2 col-12 pt-3">
+    				<h5 class="text-center text-uppercase">Contact us</h5>
+    				<ul>
+    					<li class="mb-4">
+    						<small class="text-secondary"><strong>Address:</strong>10th Floor, VIP Road,Mumbai, Maharashtra,404041</small>
+    					</li>
+    					
+    					<li>
+    						<small class="text-secondary"><strong>Website:</strong><br>www.Tutorpoint.com</small>
+    					</li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>	
+    	
+    </footer>
+   
+   
+		<!--  footer ends 	-->
+   
     
 
     <!-- Optional JavaScript -->
