@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Opexx-Search</title>
+  </head>
+  <body>
+    
+    <!-- navigation tab -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+      <a href="index.html" class="navbar-brand">OPEXX</a>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#myitems">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myitems">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a href="search.html" class="nav-link">SEARCH</a>
+          </li>
+          <li class="nav-item active">
+            <a href="pricing.html" class="nav-link">PRICING</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <!-- tab-panes -->
+    <section class="jumbotron jumbotron-fluid bg-info text-center">
+      <div class="container">
+        <ul class="nav justify-content-center">
+          <li class="nav-item active">
+            <a href="#one" data-toggle="pill" class="nav-link text-white">Live tenders</a>
+          </li>
+          <li class="nav-item">
+            <a href="#two" data-toggle="pill" class="nav-link text-white ">Winners</a>
+          </li>
+        </ul>
+
+        <!-- tab contents -->
+        <div class="tab-content">
+          
+          <div class="tab-pane container active py-5" id="one">
+            <form action="" class="">
+              <div class="form-row">
+                <div class="col-md-8 mb-3">
+                  <input type="text" class="form-control" placeholder="Keyword">
+                </div>
+                <div class="col-md-4 mb-3">
+                  <input type="text" class="form-control" placeholder="Location">
+                </div>
+              </div>
+
+              
+
+              <div class="form-row collapse" id="items">
+                <div class="col-md-6 col-12 mb-3">
+                  <input type="text" class="form-control" placeholder="Min Value">
+                </div>
+                <div class="col-md-6 col-12 mb-3">
+                  <input type="text" class="form-control" placeholder="Max Value">
+                </div>
+                <div class="col-md-6 col-12 mb-3">
+                  <input type="text" class="form-control" placeholder="Buyer's name">
+                </div>
+                <div class="col-md-6 col-12 mb-3">
+                  <input type="text" class="form-control" placeholder="CPV">
+                </div>
+                <div class="col-md-6 col-12 mb-3">
+                  <select name="" id="" class="form-control">
+                    <option value="Published">Published</option>
+                    <option value="Any Time">Any Time</option>
+                    <option value="Today">Today</option>
+                    <option value="Within last 7 days">Within last 7 days</option>
+                    <option value="Within last 30 days">Within last 30 days</option>
+                    <option value="Custom Range">Custom Range</option>
+                  </select>
+                </div>
+                <div class="col-md-6 col-12 mb-3">
+                  <select name="" id="" class="form-control">
+                    <option value="">Deadline</option>
+                    <option value="">Any Time</option>
+                    <option value="">In The Future</option>
+                    <option value="">Within 7 days</option>
+                    <option value="">Within 30 days</option>
+                    <option value="">Within a Year</option>
+                    <option value="">Custom Range</option>
+                  </select>
+                </div>
+              </div>
+
+
+
+
+            </form>
+
+            <button data-toggle="collapse" class="btn btn-default text-white" data-target="#items">Show More/Less</button>
+          
+          </div>
+
+          <div class="tab-pane container fade text-center py-5" id="two">
+            <p class="lead text-white">
+              
+              Winner and award information allow you to analyze previously awarded contracts. Start your free
+              14-day trial now to see which companies have won tenders and which organizations have issued
+              tenders before.
+            </p>
+            <button class="btn btn-success px-5 mx-2 my-2 ">Start free trial</button>
+            <button class="btn btn-light px-5 mx-2 my-2">Login</button>
+          </div>
+          
+        
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container text-center py-5">
+        <h1 class="display-4">9,000,000 tenders at your fingertips.</h1>
+        <a href="#" class="lead font-weight-bold display-5">Start free trial for 14 days. No credit card needed.</a>
+        <div class="mt-5">
+          <button class="btn btn-success">Start free trial</button>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
