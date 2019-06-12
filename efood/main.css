@@ -1,0 +1,86 @@
+.nav-link{
+    font-size: 20px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel {
+    background-color: black;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.control-r:hover {
+    background-image: linear-gradient(to left,rgba(0,0,0,.1),rgba(0,0,0,0));
+}
+
+.control-l:hover {
+    background-image: linear-gradient(to right,rgba(0,0,0,.1),rgba(0,0,0,0));
+}
+
+/* changing shape */
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+.carousel-indicators .active {
+    background-color: white;
+
+}
+
+.footer {
+    background-color: #2B2B52;
+}
+
+.underline {
+    height: 1px;
+    width: 100%;
+}
+
+.height-80 {
+    min-height: 80vh;
+}
+
+.footer-list {
+    list-style: none;
+}
+.footer-list li {
+    margin: 10px 0;
+}
+
+.card:hover {
+    transform: scale(.9);
+}
+
+.login-signup {
+    min-height: 100vh;
+    background-image: url(./efood-images/bg-image.jpg);
+    background-position: center top;
+    background-size: cover;
+}
+
+.special {
+
+
+    background-image: linear-gradient(to right,rgba(255,255,255,.6),rgba(255,255,255,.6));
+}
+

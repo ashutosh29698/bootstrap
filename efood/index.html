@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- font-awesome -->
+    <script src="./js/all.js"></script>
+
+    <!-- our own css -->
+    <link rel="stylesheet" href="main.css">
+    <title>e-Food</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <a href="./index.html" class="navbar-brand text-success font-weight-bold" style="font-size: 30px;"><span class="text-muted">e-</span>Food</a>
+        <button class="navbar-toggler" data-target="#items" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="items">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Steps</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Reviews</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                
+                <div class="dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" role="button" id="drops" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Choose your location</a>
+                    <!-- drop down items -->
+                    <div class="dropdown-menu" aria-labelledby="drops">
+                        <a href="./andheri.html" class="dropdown-item">Andheri</a>
+                        <a href="./bandra.html" class="dropdown-item">Bandra</a>
+                        <a href="./borivali.html" class="dropdown-item">Borivli</a>
+                        <a href="./kandivali.html" class="dropdown-item">Kandivali</a>
+                    </div>
+                </div>
+                
+
+            </ul>
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="./signup.html" class="nav-link">Sign Up</a></li>
+            </ul>
+        </div>
+
+        
+    </nav>
+    
+    <!-- carousel header-->
+    <header id="top">
+        <!-- carousel should always have an id so that the corresponding controls to identify whom to control -->
+        <div class="carousel slide" id="carousel-1">
+            <!-- carousel indicators present at bottom -->
+            <ul class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#carousel-1"></li>
+                <li data-slide-to="1" data-target="#carousel-1"></li>
+                <li data-slide-to="2" data-target="#carousel-1"></li>
+            </ul>
+
+            <!-- slideshow -->
+            <div class="carousel-inner">
+                <!-- image 1 -->
+                <div class="carousel-item active">
+                    <img src="./efood-images/img-1.png" class="img-fluid" alt="">
+                    <div class="carousel-caption">
+                        <h1>Chilling Effect</h1>
+                        <p class="lead">When you cant go to restaurant, bring restaurant to your home..</p>
+                    </div>
+                </div>
+
+                <!-- image-2 -->
+                <div class="carousel-item">
+                    <img src="./efood-images/img-2.jpg"  class="img-fluid" alt="">
+                    <div class="carousel-caption">
+                        <h1>We are open 24/7</h1>
+                        <p class="lead">To fulfill your cravings..</p>
+                    </div>
+                </div>
+
+                <!-- image 3 -->
+                <div class="carousel-item">
+                    <img src="./efood-images/img-3.jpg" class="img-fluid"  alt="">
+                    <div class="carousel-caption">
+                        <h1>Maxed out effect</h1>
+                        <p class="lead">When you dont care..</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- controls prev -->
+            <a href="#carousel-1" class="carousel-control-prev control-l"  data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <!-- control next -->
+            <a href="#carousel-1" class="carousel-control-next control-r" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </header>
+    <!-- end of carousel header -->
+
+    <!-- main section begins -->
+    <section>
+        <div class="container-fluid">
+            <h1 class="display-4">Easy Steps to follow...</h1>
+            
+            <!-- single row -->
+            <div class="row my-3">
+                <!-- image -->
+                <div class="col-md-6 col-12 col-lg-6">
+                    <img src="./efood-images/img-4.jpeg" class="img-fluid rounded" alt="some image">
+                </div>
+                <!-- text -->
+                <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                    <p class="lead">Find out your ideal restaurant
+                            from the variety we provide..</p>
+                </div>
+            </div>
+            <!-- end of single row -->
+
+            <!-- single row -->
+            <div class="row my-3">
+                <!-- image -->
+                <div class="col-md-6 col-12 col-lg-6">
+                    <img src="./efood-images/img-5.jpeg" class="img-fluid rounded" alt="some image">
+                </div>
+                <!-- text -->
+                <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                    <p class="lead">Our drivers present in that locality
+                            will provide you your order..</p>
+                </div>
+            </div>
+            <!-- end of single row -->
+
+            <!-- single row -->
+            <div class="row my-3">
+                <!-- image -->
+                <div class="col-md-6 col-12 col-lg-6">
+                    <img src="./efood-images/img-6.jpg" class="img-fluid rounded" alt="some image">
+                </div>
+                <!-- text -->
+                <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                    <p class="lead">Track your food Live..</p>
+                </div>
+            </div>
+            <!-- end of single row -->
+
+        </div>
+    </section>
+
+
+    <footer class="py-5 mb-5 footer">
+        <div class="row no-gutters">
+            <div class="d-none d-md-block col-md-2">
+                <a href="#" class="text-success font-weight-bold" style="font-size: 30px;"><span class="text-muted">e-</span>Food</a>
+            </div>
+            <div class="height-80 d-flex align-items-end  justify-content-center col-md-8 ">
+                <div class="">
+                    <div class="underline bg-light mx-auto"></div>
+                    <div class="row">
+                        <div class="col-md-4 col-12 ">
+                            <div class="col-12">
+                                <ul class="text-light footer-list px-2">
+                                    <li>Any questions? Feel free to contact us!</li>
+                                    <li><i class="fas fa-map-marker-alt"></i>Mumbai, India</li>
+                                    <li><i class="fas fa-mobile-alt"></i>Phone: +9029992209</li>
+                                    <li><i class="far fa-envelope"></i>Email: efood@gmail.com</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-12">
+                            <div class="col-12">
+                                <ul class="text-light footer-list px-2">
+                                    <li>About e-Food</li>
+                                    <li>Become a Delivery Partner</li>
+                                    <li>Become a Restaurant Partner</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-12">
+                            <div class="col-12">
+                                <ul class="text-light footer-list px-2">
+                                    <li>Help</li>
+                                    <li>FAQs</li>
+                                    <li>Blog</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="underline bg-light mx-auto"></div>
+                    <div class="row justify-content-center my-2">
+                        
+                            <img src="./efood-images/img-7.png" class="img-fluid mx-2" style="height: 40px;" alt="">
+                        
+                        
+                            <img src="./efood-images/img-8.png" class="img-fluid mx-2" style="height: 40px;" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <hr class="w-100">
+    <div class=" text-center">
+        <a href="#top"><i class="fas fa-chevron-up text-primary "></i></a>
+    </div>
+
+    <!-- boostrap scripts -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
