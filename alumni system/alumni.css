@@ -1,0 +1,252 @@
+* {
+    text-decoration: none;
+    
+}
+
+.navbar-brand {
+    font-size: 3vw;
+    color: red;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.activate {
+    background-color: red;
+}
+
+.header {
+    
+    min-height: 100vh;
+    background-image: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(./alumni-images/img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.navigation {
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.7),rgba(255,255,255,0.7));
+}
+
+.nav-item {
+    
+    transition: all .5s ease;
+    
+}
+.nav-link,.nav-link:hover  {
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: red;
+    color: white;
+}
+
+.special-carousel {
+    height: 80vh;
+    width: 100%;
+    
+}
+
+.special-carousel-inner {
+    display: inline-block;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.special-carousel-item {
+    text-align: center;    
+}
+
+.special-carousel-item h1 {
+    animation-name: myleftfirst;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+    
+}
+
+.special-carousel-item p {
+    animation-name: myleftfirst;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+
+.special-carousel-item a {
+    text-decoration: none;
+}
+
+.btn-special:link {
+    color: white;
+}
+.btn-special:hover {
+    color: white;
+}
+
+.btn-special {
+    
+    border: 2px solid red;
+    padding: 10px 50px;
+    display: inline-block;
+    margin-top: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    
+}
+
+.btn-special::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(45deg);
+    width: 100%;
+    background-color: red;
+    z-index: -1;
+}
+
+.btn-special:hover::before {
+    
+    color: white;
+    text-decoration: none;
+    animation-name: colorme;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+a{
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+@keyframes myleftfirst {
+    0%{
+        opacity: 1;
+        transform: translateX(0);
+    }   
+    60%{
+        opacity: 1;
+        transform: translateX(100px);
+    }
+    80% {
+        opacity: 1;
+        transform: translateX(-200%);
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0
+
+    
+    }
+}
+
+@keyframes colorme {
+    0% {
+        height: 0%;
+        color: white;
+    }
+    
+    100% {
+        height: 300%;
+        color: white;
+    }
+
+}
+
+#carousel-2 {
+    min-height: 100vh;
+}
+
+.card {
+    background-color: rgba(255,255,255,.7);
+}
+
+.only-secondary {
+    background-color: #DAE0E2;
+}
+
+
+/* styling for second page */
+.navigation-blog {
+    background-image: linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)) ,url(./alumni-images/img-1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.special-link:hover {
+    animation-name: turnmered;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes turnmered {
+    0% {
+        color: black;
+    }
+    100% {
+        color: red;
+    }
+}
+
+.underline {
+    width: 100%;
+    height: 2px;
+}
+.round {
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid white;
+}
+
+.hover-btn {
+    background-color: black;
+    color: white;
+}
+
+.hover-btn:hover {
+    color: white;
+    background-color: red;
+
+}
+
+.special-list {
+    list-style: none;
+}
+
+.special-list li a {
+    color: #99AAAB;
+    margin: 0 20px;
+}
+
+.special-list li a:hover {
+    animation: turnmered-new 1s ease forwards;
+}
+
+@keyframes turnmered-new {
+    0% {
+        color: #99AAAB;
+    }
+    100% {
+        color: red;
+    }
+}
+
+
+/* third page */
